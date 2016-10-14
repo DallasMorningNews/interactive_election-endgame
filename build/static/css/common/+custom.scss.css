@@ -1,0 +1,106 @@
+.transform, #sign-up-wrapper #content-wrapper {
+  -ms-transform: translateY(-50%);
+  /* IE 9 */
+  -webkit-transform: translateY(-50%);
+  /* Chrome, Safari, Opera */
+  transform: translateY(-50%); }
+
+#content {
+  padding: 0; }
+
+#sign-up-wrapper {
+  height: calc(100vh - 51px);
+  min-height: 900px;
+  padding: 4rem 0;
+  background: linear-gradient(to right bottom, #8554bf 50%, #6c3da3 50%);
+  position: relative; }
+  @media only screen and (max-width: 320px) {
+    #sign-up-wrapper {
+      min-height: 800px; } }
+  #sign-up-wrapper #content-wrapper {
+    max-width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%; }
+    #sign-up-wrapper #content-wrapper h1 {
+      text-align: center;
+      color: white;
+      font-family: "Gotham A", "Gotham B", Arial, sans-serif;
+      font-size: 10rem;
+      line-height: 9rem;
+      text-shadow: 1; }
+      @media only screen and (max-width: 678px) {
+        #sign-up-wrapper #content-wrapper h1 {
+          font-size: 6rem;
+          line-height: 6rem; } }
+    #sign-up-wrapper #content-wrapper p {
+      margin: 0 auto;
+      font-family: "Gotham A", "Gotham B", Arial, sans-serif;
+      font-weight: 200;
+      color: white;
+      max-width: 650px;
+      padding: 3rem;
+      background: rgba(255, 255, 255, 0.1);
+      -webkit-box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.3); }
+    #sign-up-wrapper #content-wrapper h5 {
+      color: white;
+      margin: 2rem auto 0;
+      text-align: center;
+      font-size: 1.5rem; }
+      @media only screen and (max-width: 678px) {
+        #sign-up-wrapper #content-wrapper h5 {
+          font-size: 1.2rem;
+          line-height: 1.8rem; } }
+
+.content-well {
+  margin-top: 5rem;
+  width: 100%;
+  padding: 4rem; }
+  .content-well p {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Titillium Web", "Gotham A", "Gotham B", Arial, sans-serif;
+    font-weight: 200;
+    color: white;
+    max-width: 650px; }
+
+.shareCommentsTop {
+  margin-bottom: 4rem;
+  margin-top: 4rem; }
+
+form {
+  left: 0;
+  right: 0;
+  margin: 4rem auto 0;
+  max-width: 650px;
+  height: 50px;
+  -webkit-box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.3); }
+  form li {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    height: 50px; }
+  form input {
+    height: 100%;
+    width: 100%;
+    font-size: 2rem;
+    padding: 1rem 1rem;
+    font-family: "Gotham A", "Gotham B", Arial, sans-serif;
+    color: #323232;
+    outline: none; }
+  form .submit-btn {
+    background: #323232;
+    cursor: pointer; }
+    form .submit-btn:hover {
+      background: #9f79cd; }
+  form h3 {
+    color: white;
+    font-size: 1.8rem;
+    padding-top: 0.4rem;
+    text-align: center; }
