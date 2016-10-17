@@ -909,20 +909,11 @@ XIX. ADS
     margin: 2.4rem 0;
     padding: 2.4rem 0; } }
 
-.transform, #sign-up-wrapper #content-wrapper {
-  -ms-transform: translateY(-50%);
-  /* IE 9 */
-  -webkit-transform: translateY(-50%);
-  /* Chrome, Safari, Opera */
-  transform: translateY(-50%); }
-
 #content {
   padding: 0; }
 
 #sign-up-wrapper {
-  height: calc(100vh - 51px);
-  min-height: 900px;
-  padding: 4rem 0;
+  padding: 0 0 4rem;
   background: linear-gradient(to right bottom, #8554bf 50%, #6c3da3 50%);
   position: relative; }
   @media only screen and (max-width: 320px) {
@@ -931,13 +922,16 @@ XIX. ADS
   #sign-up-wrapper #content-wrapper {
     max-width: 90%;
     margin: 0 auto;
-    position: absolute;
     left: 0;
-    right: 0;
-    top: 50%; }
+    right: 0; }
+    #sign-up-wrapper #content-wrapper .flag-logo {
+      display: block;
+      margin: 0 auto;
+      padding: 2.4rem 0;
+      max-width: 150px; }
     #sign-up-wrapper #content-wrapper h1 {
       text-align: center;
-      color: white;
+      color: #FFFFFF;
       font-family: "Gotham A", "Gotham B", Arial, sans-serif;
       font-size: 10rem;
       line-height: 9rem;
@@ -946,22 +940,40 @@ XIX. ADS
         #sign-up-wrapper #content-wrapper h1 {
           font-size: 6rem;
           line-height: 6rem; } }
-    #sign-up-wrapper #content-wrapper p {
+    #sign-up-wrapper #content-wrapper #body-text {
+      background: rgba(255, 255, 255, 0.1);
       margin: 0 auto;
-      font-family: "Gotham A", "Gotham B", Arial, sans-serif;
-      font-weight: 200;
-      color: white;
       max-width: 650px;
       padding: 3rem;
-      background: rgba(255, 255, 255, 0.1);
       -webkit-box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.3);
       -moz-box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.3);
       box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.3); }
+      #sign-up-wrapper #content-wrapper #body-text p {
+        color: #FFFFFF;
+        font-family: "Gotham A", "Gotham B", Arial, sans-serif;
+        font-size: 1.65rem;
+        font-weight: 200;
+        line-height: 3rem;
+        padding: 0; }
+        #sign-up-wrapper #content-wrapper #body-text p.intro {
+          font-size: 2.4rem;
+          line-height: 4rem; }
+        #sign-up-wrapper #content-wrapper #body-text p + p {
+          padding-top: 3rem; }
+        #sign-up-wrapper #content-wrapper #body-text p strong {
+          letter-spacing: 0.75px; }
+        #sign-up-wrapper #content-wrapper #body-text p a {
+          color: #DDDDDD;
+          text-decoration: none; }
+          #sign-up-wrapper #content-wrapper #body-text p a:hover {
+            color: #FFFFFF;
+            text-decoration: underline; }
     #sign-up-wrapper #content-wrapper h5 {
-      color: white;
-      margin: 2rem auto 0;
-      text-align: center;
-      font-size: 1.5rem; }
+      color: #FFFFFF;
+      font-size: 1.5rem;
+      margin: 3rem auto 0;
+      max-width: 650px;
+      text-align: center; }
       @media only screen and (max-width: 678px) {
         #sign-up-wrapper #content-wrapper h5 {
           font-size: 1.2rem;
@@ -976,7 +988,7 @@ XIX. ADS
     margin-right: auto;
     font-family: "Titillium Web", "Gotham A", "Gotham B", Arial, sans-serif;
     font-weight: 200;
-    color: white;
+    color: #FFFFFF;
     max-width: 650px; }
 
 .shareCommentsTop {
@@ -1011,7 +1023,7 @@ form {
     form .submit-btn:hover {
       background: #9f79cd; }
   form h3 {
-    color: white;
+    color: #FFFFFF;
     font-size: 1.8rem;
     padding-top: 0.4rem;
     text-align: center; }
